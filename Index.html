@@ -19,7 +19,7 @@
 
         <div class="navigation">
 
-          <a class="links" href="index.html"><img class="logo" src="img/365ep.jpg" alt="365 Entertainment Portal"/></a>
+          <a class="links" href="index.html"><img class="logo" src="img/365ep.jpg" alt="365 Entertainment"/></a>
           <a class="links text" href="#">Movies</a>
           <a class="links text" href="#tv_series">TV Series</a>
           <a class="links text" href="#audio">Audio</a>
@@ -32,6 +32,31 @@
       </header>
     </div>
 <!--**********************************************************************Navbar part1 ends****************************************************************************-->
+
+<!--********************************************************************Navbar part2 starts****************************************************************************-->
+        <div class="dropdown">
+          <button id="dropbtn" onclick="toggleGenreList()"><span id="genreText">Genre</span><i class="fa fa-caret-down"></i></button>
+          <div id="dropdown-content">
+            <a onclick="getMediaPosters(this.text)">All</a>
+            <a onclick="getMediaPosters(this.text)">Action</a>
+            <a onclick="getMediaPosters(this.text)">Drama</a>
+            <a onclick="getMediaPosters(this.text)">Sci-Fi</a>
+          </div>
+
+        </div>
+
+
+        <div class="search-container">
+          <form onsubmit="javascript:return false;">
+            <input type="text" class="input-medium search-query" placeholder="Search your favourite movie title" name="search" oninput="updateResults()">
+
+            <div class="search-container-button">
+              <button type="submit" onclick="updateResults()"><i class="fa fa-search"></i></button>
+            </div>
+
+          </form>
+        </div>
+<!--**********************************************************************Navbar part2 ends****************************************************************************-->
 
 <!--**********************************************************************Footer Part Starts***************************************************************************-->
     <footer>

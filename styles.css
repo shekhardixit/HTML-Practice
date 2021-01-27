@@ -18,9 +18,8 @@
     height: 80px;
   }
   
-  header,
-  footer {
-    background: linear-gradient(-45deg, rgb(223, 245, 253), rgb(255, 240, 107), rgb(206, 255, 250), rgb(218, 165, 32));
+  header, footer {
+    background: linear-gradient(-45deg, rgb(223, 245, 254), rgb(255, 239, 107), rgb(206, 255, 250), rgb(218, 165, 32));
     background-size: 400% 400%;
     -webkit-animation: Gradient 20s ease infinite;
     -moz-animation: Gradient 20s ease infinite;
@@ -75,7 +74,8 @@
     position: relative;
     padding-bottom: 16px;
     z-index: 2;
-    /* position: fixed; */
+    top: 0%;
+     /*position: fixed; */
   }
   
   .navigation,

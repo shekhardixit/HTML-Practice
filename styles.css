@@ -308,7 +308,7 @@ input.input-medium.search-query {
 .slides img {
   vertical-align: middle;
   width: 112.55%;
-  height: 526px;
+  height: 723px;
 }
 
 /* Slideshow container */
@@ -316,6 +316,7 @@ input.input-medium.search-query {
 .slideshow-container {
   max-width: 1350px;
   position: relative;
+  height: 100vh;
 }
 
 /* Next & previous buttons */
@@ -393,4 +394,7 @@ input.input-medium.search-query {
   font-weight: bolder;
   font-size: 25px;
   margin-top: -160px;
+}
+.content {
+  height: 120vh;
 }
